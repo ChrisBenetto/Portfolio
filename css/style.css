@@ -1,0 +1,44 @@
+/* Css généric */
+body {
+    font-family: "Oswald" , sans-serif;
+}
+
+/* Header */
+.header
+.navbar
+.navbar__items
+.navbar__list
+.navbar__list__items
+.navbar__social
+.navbar__social__items
+.header__content
+.header__content__title
+.header__content__subtitle
+.header__figure
+
+/* End of Header */
+/* Description */
+.description
+.description__figure
+.description__content
+.description__text
+.description__skills
+/* End of Description */
+/*Projects */
+.projects
+.project__card
+.project__visual
+.project__title
+.project__description
+.project__githubLink
+/* End of Projects */
+/* Contact */
+.contact
+.contact__title
+.contact__form
+.contact__form__input
+.contact__form__textarea
+.contact__form__submit
+.contact__content
+/* End of Contact */
+/* MédiaQueries*/
