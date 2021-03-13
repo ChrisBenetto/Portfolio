@@ -46,14 +46,17 @@ a {
     justify-content: space-around;
     
 }
-.navbar__list__items:hover {
-    border-bottom: 1px solid #90CAF9;
+.navbar__list__link:hover {
+    color:#90CAF9;
 }
 #calltoAction {
-    background-color: #90CAF9 ;
+    background-color: #90CAF9;
     padding: 0.5em 1em;
     border-radius: 10px;
     color: white;
+}
+#calltoAction:hover {
+    background-color: #539fdd;
 }
 .navbar__social {
     display: flex;
@@ -104,11 +107,59 @@ a {
 
 /* End of Header */
 /* Description */
-.description
-.description__figure
-.description__content
-.description__text
-.description__skills
+.description {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.description__content__image {
+    width: 50%;
+    height: 60%;
+    box-sizing: border-box;
+
+}
+.description__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+}
+.description__text {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+.description__skills__title {
+    font-size: 2em;
+    margin-top: 2em;
+    color: #90CAF9;
+}
+.description__skills {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.skills__list {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills__logo {
+    margin-top: 3em;
+    margin-right: 3em;
+    width: 5em;
+    height: 5em;
+}
 /* End of Description */
 /*Projects */
 .projects
