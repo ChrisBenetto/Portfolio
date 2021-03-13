@@ -116,8 +116,8 @@ a {
     box-sizing: border-box;
 }
 .description__content__image {
-    width: 50%;
-    height: 60%;
+    width: 40%;
+    height: 70%;
     box-sizing: border-box;
 
 }
@@ -162,16 +162,67 @@ a {
 }
 /* End of Description */
 /*Projects */
-.projects
-.project__card
-.project__visual
-.project__title
-.project__description
-.project__githubLink
+.projects {
+    width: 100%;
+    height: 150vh;
+    box-sizing: border-box;
+}
+.projects__title {
+    font-size: 3em;
+    color: #90CAF9;
+    text-align:center;
+    margin-bottom: 1.5em;
+}
+.projects__card__list {
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project__card {
+    position: relative;
+    width: 20%;
+    margin-right: 5%;
+    height: 35%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px 1px rgba(230,230,230,0.75);
+    display: flex;
+    flex-direction: column;
+}
+.project__visual {
+    width: 90%;
+    margin: 1em auto;
+    height: 50%;
+}
+.project__title {
+    color: #90CAF9;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.project__githubLink__image {
+    width: 2em;
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
 /* End of Projects */
 /* Contact */
-.contact
-.contact__title
+.contact {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+.contact__title {
+    font-size: 3em;
+    color: #90CAF9;
+    text-align:center;
+    margin-bottom: 1.5em;
+}
 .contact__form
 .contact__form__input
 .contact__form__textarea
