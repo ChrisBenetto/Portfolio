@@ -254,6 +254,7 @@ a {
 }
 .contact__form__textarea {
     width: 60%;
+    height: 5em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     background-color: #90CAF9;
@@ -281,3 +282,161 @@ a {
 }
 /* End of Contact */
 /* MédiaQueries*/
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .navbar__items:nth-child(2) {
+        width: 60%;
+    }
+    .header , .description{
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 200vh;
+    }
+    .description__content__image,.description__content {
+        width: 80%;
+        margin: auto;
+        height: 50%;
+        box-sizing: border-box;
+    
+    }
+    .description__content {
+        margin-top: 15%;
+    }
+    .description__figure {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .projects {
+        height: 200vh;
+        margin-top: 10%;
+    }
+    .project__card {
+        position: relative;
+        width: 40%;
+        margin-right: 10%;
+        height: 20%;
+        margin-bottom:2em;
+        max-width: 320px;
+    }
+    .project__title {
+        font-size: 1em;
+    }
+    .project__githubLink__image {
+        width: 1.5em;
+        position: absolute;
+        bottom: 0.5em;
+        right: 1em;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .header__content {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar__items:nth-child(1), .navbar__items:nth-child(3) {
+        display: none;
+    }
+    .navbar__items:nth-child(2) {
+        width: 100%;
+        margin: auto;
+    }
+    .navbar__list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar__list__link {
+        font-size: 0.8em;
+    }
+    .header__content__text {
+        width: 100%;
+        text-align: center;
+    }
+    .header__content__subtitle {
+        margin-top: 0.5em;
+    }
+    .header__content__image {
+        width: 100%;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 350vh;
+    }
+    .description__content__image,.description__content {
+        width: 80%;
+        margin: auto;
+        height: 70%;
+        box-sizing: border-box;
+    
+    }
+    .description__content {
+        margin-top: 5%;
+    }
+    .description__figure {
+        display: none;
+    }
+    .skills__logo {
+        margin-right: 1em;
+    }
+    .projects {
+        height: 500vh;
+
+    }
+    .project__card {
+        width: 70%;
+        max-width: 250px;
+        margin: auto;
+        height: 12%;
+    }
+    .project__githubLink__image {
+        width: 1.3em;
+        position: absolute;
+        bottom: 1em;
+        right: 1em;
+    }
+
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact__form__container {
+        width: 100%;
+        height: 70%;
+    }
+    .contact__form {
+        width: 80%;
+        margin: auto;
+
+    }
+    .contact__form__input,.contact__form__textarea , .contact__form__submit {
+        width: 80%;  
+    }
+    .contact__form__input {
+        height: 10em;
+    }
+    .contact__form__textarea {
+        height: 30em;
+    }
+    .contact__content {
+      display: none;
+    }
+}
