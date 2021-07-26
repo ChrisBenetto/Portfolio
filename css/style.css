@@ -202,14 +202,30 @@ a {
 .project__title {
     color: #90CAF9;
     margin-top: 1em;
+    margin-bottom: 1em;
     text-align: center;
     font-size: 1.2em;
 }
+.projet__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.badge {
+    background-color: #539fdd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 2em;
+    border-radius:1em;
+}
 .project__githubLink__image {
     width: 2em;
-    position: absolute;
+    /*position: absolute;
     bottom: 2em;
-    right: 2em;
+    right: 2em;*/
 }
 /* End of Projects */
 /* Contact */
